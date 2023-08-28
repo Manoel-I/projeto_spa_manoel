@@ -1,0 +1,359 @@
+body {
+    font-family: 'Montserrat';
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+h2 {
+    text-align: left;
+    font: normal normal bold 24px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #292929;
+}
+#topbar {
+    position: relative;
+    height: 30px;
+    background: #241960 0% 0% no-repeat padding-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 85px;
+}
+
+#topbar_texts {
+    display: flex;
+    width: 584px;
+    height: 15px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#topbar_socialmedia {
+    display: flex;
+    margin-left: auto;
+    justify-content: space-between;
+    align-items: center;
+    width: 60px;
+    height: 30px;
+}
+
+#search_bar {
+    height: 75px;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    justify-content: center;
+}
+
+#icone {
+    padding-left: 85px;
+}
+
+input#search_input {
+    height: 39px;
+    width: 519px;
+    border: 1px solid #D0D0D0;
+    border-radius: 7px;
+}
+
+input#search_input::placeholder {
+    text-align: left;
+    font: normal normal normal 14px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #D0D0D0;
+}
+
+#search_item {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 100vw;
+    justify-content: center;
+}
+
+#search_item img {
+    position: relative;
+    left: -33px;
+    width: 27px;
+    height: 27px;
+}
+
+div#my_profile {
+    display: flex;
+    justify-content: space-between;
+    width: 67px;
+    height: 30px;
+    float: right;
+    clear: both;
+    margin-left: auto;
+    margin-right: 28px;
+}
+
+#my_profile section div:first-child {
+    text-align: left;
+    font: normal normal normal 12px/15px Montserrat;
+    letter-spacing: 0px;
+    color: #313131;
+}
+
+#my_profile section div:last-child {
+    text-align: left;
+    font: normal normal normal 14px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #313131;
+}
+
+div#my_cart {
+    display: flex;
+    justify-content: space-between;
+    width: 67px;
+    height: 30px;
+    float: right;
+    clear: both;
+    margin-right: 85px;
+}
+
+#my_cart section div:first-child {
+    text-align: left;
+    font: normal normal normal 12px/15px Montserrat;
+    letter-spacing: 0px;
+    color: #313131;
+}
+
+#my_cart section div:last-child {
+    text-align: left;
+    font: normal normal normal 14px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #313131;
+}
+
+#navbar {
+    position: relative;
+    height: 43px;
+    width: 100vw;
+    background-color: #52BBB7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#navbar a {
+    text-align: left;
+    font: normal normal normal 14px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#content {
+    margin: 40px 85px 0px 85px;
+}
+
+#voce_nao_pode_perder{
+    margin-top: 53px;
+}
+
+.card {
+    height: 362px;
+    width: 255px;
+    margin-right: 30px;
+    border: none !important;
+}
+
+#carousel_cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.div_carousel_cards_1, .div_carousel_cards_2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card img {
+    height: 264px;
+    width: 255px;
+}
+
+.card .product_name {
+    margin: 20px 0px 15px 0px;
+    text-align: left;
+    font: normal normal normal 16px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #292929;
+}
+
+.card .price {
+    text-align: left;
+    font: normal normal bold 20px/15px Montserrat;
+    letter-spacing: 0px;
+    color: #292929;
+}
+
+.card .installments {
+    text-align: left;
+    font: normal normal normal 14px/15px Montserrat;
+    letter-spacing: 0px;
+    color: #292929;
+}
+
+  
+.gallery-cell {
+    height: 362px;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery-cell:before {
+    display: block;
+    text-align: center;
+    content: counter(gallery-cell);
+    color: white;
+}
+
+
+#payment {
+    height: 500px;
+    display: flex;
+    margin-top: 53px;
+}
+
+#payment img {
+    height: 100%;
+}
+
+#payment_form {
+    margin-left: 75px;
+    width: 445px;
+    height: 456px;
+    display: flex;
+    align-items: center;
+}
+
+#payment_form legend {
+    text-align: left;
+    font: normal normal bold 24px/18px Montserrat;
+    color: #292929;
+}
+
+#payment_form .legend {
+    text-align: left;
+    font: normal normal normal 16px/15px Montserrat;
+    letter-spacing: 0px;
+    color: #292929;
+}
+
+#payment_form label {
+    text-align: left;
+    font: normal normal normal 16px/15px Montserrat;
+    letter-spacing: 0px;
+    color: #292929;
+    margin-top: 20px;
+}
+
+#payment_form input {
+    display: block;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #DFDFDF;
+    border-radius: 10px;
+    height: 49px;
+    color: #292929;
+    padding: 0px 20px 0px 20px;
+    width: 450px;
+}
+
+#card_val input {
+    width: 91px;
+}
+
+#card_val {
+    display: flex;
+    flex-direction: column;
+}
+
+input#card_cvv {
+    width: 212px;
+}
+
+#card_val_cvv {
+    display: flex;
+    align-items: center;
+}
+
+.confirm_card_info {
+    width: 230px;
+    height: 44px;
+    background: #221A61 0% 0% no-repeat padding-box;
+    border-radius: 25px;
+    text-align: center;
+    font: normal normal bold 16px/19px Montserrat;
+    color: #FBFBFB;
+}
+
+footer {
+    margin: 40px 85px 0px 85px;
+    border-top: 1px solid #DFDFDF;
+}
+
+footer p {
+    text-align: center;
+    font: normal normal normal 14px/15px Montserrat;
+    color: #292929;
+    display: flex;
+    height: 77px;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputError {
+    border: 1px solid #DF1A1A !important;
+}
+
+#payment_form span {
+    font: normal normal normal 12px/15px Montserrat;
+    color: #DF1A1A;
+}
+
+#payment_form button {
+    margin-top: 30px;
+}
+/* card-information */
+#credit-card > .line1,
+#credit-card > .line2 {
+    
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    height: 40px;
+    overflow: hidden;
+    white-space: nowrap;
+    max-height: 40px;
+    position: relative;
+    top: -275px;
+    left: 210px;
+    color: white;
+    font-weight: 500;
+    font: normal normal normal 20px/15px Montserrat;
+    text-transform: uppercase;
+
+}
+
+#credit-card > .line1 {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#credit-card > .line2 {
+    font-size: 16px;
+}
+
+#credit-card > .line2 > .cardc-name{
+    width: 200px;
+    max-width: 200px;
+    overflow: hidden;
+    white-space: nowrap;
+}
